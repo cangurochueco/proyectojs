@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>trabajo 1</title>
+    <link rel="stylesheet" href="./style.css/main.csss">
 </head>
 <body>
-    <h1>bienvenidos a trabajo 1 js</h1>
+    <header class="header">
+        <div class="container">
+            <h1>tienda js</h1>
+        </div>
+    </header>
+    <main class="main">
+        <section class="container">
+            <h2 class="titulo">productos</h2>
+            <div class="productos" id="productos">
+                <!-- esto esa en js -->
+            </div>
+        </section>
+        <section class="container">
+            <h2 class="titulo">carrito</h2>
+            <div class="carrito">
+                <div id="carrito-vacio" class="">
+                    <h4>tu carrito esta vacio.</h4>
+                </div>
+                <div class="carrito-productos d-none"
+                id="carrito-productos">
+                <!-- esto esta en js -->
+            </div>
+            <div class="carrito-total">
+                <h2>total: <span id="carrito-total">$0</span></h2>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>tienda js</p>
+        </div>
+    </footer>
     <script src="./style.js/main.js"></script>
 </body>
 </html>
