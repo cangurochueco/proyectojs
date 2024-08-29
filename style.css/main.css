@@ -9,17 +9,17 @@
 }
 
 :root {
-    --clr-black: #be5d0e;
-    --clr-white: #f2ebd9;
-    --clr-accent: #000000;
+    --clr-black: #000000;
+    --clr-white: #ffffff;
+    --clr-accent: #c05914;
 }
 body {
-    background-image: url(/img/pxfuel.jpg); /* Reemplaza con la ruta de tu imagen */
+    background-image: url(/img/pxfuel.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed; /* Para que la imagen se mantenga fija al hacer scroll */
-    color: var(--clr-white); /* Asegúrate de que el texto sea visible sobre la imagen */
+    background-attachment: fixed;
+    color: var(--clr-white);
 }
 
 .container {
