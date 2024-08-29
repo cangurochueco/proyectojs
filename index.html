@@ -3,43 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>trabajo 1</title>
-    <link rel="stylesheet" href="./style.css/main.csss">
+    <title>caelum_indumentaria</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./style.css/main.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <h1>tienda js</h1>
+            <h1>caelum_indumentaria</h1>
+            <a id="ir-al-carrito" href="./carrito.html" style="color: white">Ir al Carrito</a>
         </div>
     </header>
     <main class="main">
         <section class="container">
-            <h2 class="titulo">productos</h2>
+            <h2 class="titulo">Productos</h2>
             <div class="productos" id="productos">
-                <!-- esto esa en js -->
+                <!-- Esto se va a rellenar en JS -->
             </div>
         </section>
         <section class="container">
-            <h2 class="titulo">carrito</h2>
+            <h2 class="titulo">Carrito</h2>
             <div class="carrito">
                 <div id="carrito-vacio" class="">
-                    <h4>tu carrito esta vacio.</h4>
+                    <h4>Tu carrito está vacío.</h4>
                 </div>
-                <div class="carrito-productos d-none"
-                id="carrito-productos">
-                <!-- esto esta en js -->
-            </div>
-            <div class="carrito-total">
-                <h2>total: <span id="carrito-total">$0</span></h2>
-            </div>
+                <div class="carrito-productos d-none" id="carrito-productos">
+                    <!-- Esto se rellena con JS -->
+                </div>
+                <button class="d-none" id="vaciar-carrito">Vaciar carrito</button>
+                <div class="carrito-total">
+                    <h2>Total: <span id="carrito-total">$0</span></h2>
+                </div>
             </div>
         </section>
     </main>
     <footer class="footer">
         <div class="container">
-            <p>tienda js</p>
+            <p>caelum_indumentaria ©</p>
         </div>
     </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="./style.js/main.js"></script>
 </body>
 </html>
