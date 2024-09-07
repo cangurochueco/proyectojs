@@ -9,7 +9,7 @@
 }
 
 :root {
-    --clr-black: #1c1c1c;
+    --clr-black: #000000;
     --clr-white: #f2ebd9;
     --clr-accent: #ff3c00;
 }
@@ -19,6 +19,14 @@
     margin: 0 auto;
     padding-inline: 1.5rem;
 }
+
+body {
+    background-image: url('../img/564835.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
 
 img {
     max-width: 100%;
